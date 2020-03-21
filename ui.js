@@ -14,7 +14,7 @@ class UserInterfaces {
                 <a href="${user.html_url}" target="_blank" class="btn btn-primary btn-block mb-4 mt-2">Show Profile</a>
             </div>
             <div class="col-md-9">
-                <span class="badge badge-primary">Public Repository : ${user.public_repos}</span>
+                <span class="badge badge-primary">Public Repositories : ${user.public_repos}</span>
                 <span class="badge badge-secondary">Public Gists : ${user.public_gists}</span>
                 <span class="badge badge-success">Public Followers : ${user.followers}</span>
                 <span class="badge badge-info">Public Following : ${user.following}</span>
@@ -29,7 +29,7 @@ class UserInterfaces {
                 </div>
             </div>
         </div>
-        <h3 class="page-heading mb-3">Latest Repository</h3>
+        <h3 class="page-heading mb-3">Latest Repositories</h3>
         <div class="" id="repos"></div>
     </div>
         `
